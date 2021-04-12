@@ -1,7 +1,8 @@
-my_matrix = [[3, -2, 6, 4],
-[8, 1, 12, 2],
-[5, 4, -8, 0]]
-
+my_matrix = [
+    [3, -2, 6, 4],
+    [8, 1, 12, 2],
+    [5, 4, -8, 0]
+]
 
 
 def bubble_sort(matrix, x):
@@ -17,5 +18,8 @@ def bubble_sort(matrix, x):
 
 bubble_sort(my_matrix, 0)
 
-print(my_matrix)
+
+for row in my_matrix:
+    print(("{:<4}" * len(row)).format(*row))
+
 
