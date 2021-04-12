@@ -13,4 +13,4 @@ sportsmen.sort(key=lambda i: i[n])
 
 
 for i in sportsmen:
-    print("%7s %3d %4d %3d" % (i[0], i[1], i[2], i[3]))
+    print("%7s | %3d | %4d | %3d" % (i[0], i[1], i[2], i[3]))
